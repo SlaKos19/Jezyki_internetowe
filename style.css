@@ -9,10 +9,7 @@ header{
     height: 20%;
 }
 
-
 * {box-sizing:border-box}
-
-
 
 .slideshow-container {
     text-align: center;
@@ -133,15 +130,11 @@ header{
 }
 
 .flexslider ul li{
-    
-    
+        
     background: rgb(175, 211, 233);
     
-    
-
-    
-    
-}
+        
+    }
 .slider{
     background: rgb(175, 211, 233);
 }
@@ -183,12 +176,6 @@ margin: 0 auto;
 }
 
 
-
-
-
-
-
-
 #kolor{
     background: rgb(175, 211, 233);
     border:solid brown 2px;
@@ -202,7 +189,6 @@ margin: 0 auto;
 }
 
 
-
 #zdjp{
     display: flex;
     flex-direction: column;
@@ -213,7 +199,6 @@ margin: 0 auto;
     
     
 }
-
 
 .article{
     margin: auto;
@@ -235,7 +220,6 @@ margin: 0 auto;
 }
 
     
-
 #foter{
     border:solid brown 2px;
     width: 100%;
@@ -269,4 +253,100 @@ margin: 0 auto;
 
 #backg{
     background: rgb(175, 211, 233);
+}
+
+
+/* przewodnik.html*/
+
+#tło_przewodnik{
+  max-height:100% ;
+  background: rgb(175, 211, 233);
+  border:solid brown;
+}
+#przewodnik_nagł{
+  background: rgb(175, 211, 233);
+
+  font-size:26pt;
+  color:brown;
+  text-align:center;
+  font-weight: 800;
+  padding-bottom:3%;
+}
+#przewodnik_a1{
+  font-size:18pt;
+  margin:1px;
+  margin-left: 1%;
+  padding-bottom: 2%;
+
+}
+.przewodnik_z{
+  width:300px;
+  height: 300px;
+  margin:40px;
+  display:inline-block;
+  justify-content: center;
+  position: relative;
+  left:13%;
+  border :solid brown 2px;
+
+}
+#przewodnik_nagł2{
+  font-size:18pt;
+  margin:1px;
+  margin-left: 1%;
+  padding-bottom: 2%;
+}
+#przewodnik_lista{
+  font-size:14pt;
+  margin:1px;
+  margin-left: 1%;
+  padding-bottom: 5%;
+
+}
+
+
+/*izolator.html*/
+
+#tło_izolator{
+  border:solid brown;
+  background: rgb(175, 211, 233);
+}
+#izolator_nagł{
+  font-size:26pt;
+  color:brown;
+  text-align:center;
+  font-weight: 800;
+  padding-bottom:3%;
+}
+#izolator_zdj1{
+  width: 800px;
+  height: 450px;
+  padding-bottom: 5%;
+}
+#izolator_a1{
+  font-size:18pt;
+  margin:1px;
+  margin-left: 1%;
+  padding-bottom: 5%;
+}
+#izolator_nagł2{
+  font-size:18pt;
+  margin:1px;
+  margin-left: 1%;
+  padding-bottom: 2%;
+  padding-top:5%;
+}
+#izolator_nagł3{
+  font-size:20pt;
+  margin:1px;
+  margin-left: 1%;
+  padding-bottom: 2%;
+  padding-top:5%;
+}
+#izolator_lista{
+  font-size:14pt;
+  margin:1px;
+  margin-left: 1%;
+  padding-bottom: 1%;
+  padding-top:1%; 
 }
