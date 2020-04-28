@@ -309,3 +309,14 @@ header{
   padding-bottom: 1%;
   padding-top:1%; 
 }
+
+/* sklep.html */
+
+#tło_sklep{
+  background: rgb(175, 211, 233);
+  border:solid brown;
+}
+
+#lista1{
+  background:rgb(175, 211, 233);  
+}
