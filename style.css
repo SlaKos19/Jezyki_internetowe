@@ -327,9 +327,7 @@ header{
   border:solid rgb(114, 11, 11) 2px;
   position: absolute;
   background: rgb(161, 156, 156);
-  
   left:42.5%;
- 
   margin-top: 10px;
   padding:10px;
 }
@@ -344,7 +342,6 @@ header{
   font-weight: 800;
   padding-top: 40px;
   background: rgb(175, 211, 233);
-
 }
 #opis_kalkulator{
   padding-top: 40px;
@@ -353,5 +350,42 @@ header{
   margin-left: 1%;
   padding-bottom: 5%;
   margin-right: 1%;
+}
 
+/*pomoc*/
+
+#area{
+  height: 90px;
+}
+
+.col-md-8 h3{
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+.form_pomoc{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.click{
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 15pt;
+}
+
+.text-danger{
+  padding-top: 30px;
+}
+
+.form_pomoc .sent-notification{
+  color: green;
+  text-align: center;
+  font-size: 17pt;
+  font-weight: bold;
+}
+
+#myForm{
+  padding-bottom: 30px;
 }
