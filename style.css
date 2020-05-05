@@ -389,3 +389,29 @@ header{
 #myForm{
   padding-bottom: 30px;
 }
+
+
+/*formularz*/
+.error{
+	color:red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.row h3{
+    color: brown;
+    padding-bottom: 10px;
+}
+#formh3{
+    padding-bottom: 20px;
+}
+
+
+/*witamy.php*/
+#formh4{
+  color: brown;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
