@@ -415,3 +415,20 @@ header{
   padding-top: 40px;
 }
 
+
+/*logowanie*/
+.row h5 a{
+  color: red;
+}
+
+.log{
+  height: 600px;
+}
+
+.wyloq{
+  font-size: 20pt;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: rgb(9, 61, 128);
+}
