@@ -18,6 +18,6 @@ $dzialanie=mysqli_query($polaczenie,$zapytanie) or die ("Nie udalo sie zapisac b
 		mysqli_close($polaczenie);
 	
 		echo '<p class="dodano">Dodano :) Zaraz zostaniesz przekierowany</p>';
-		header("Refresh:3; URL=index.html");
+		header("Refresh:3; URL=sklep.html");
 
 ?>
