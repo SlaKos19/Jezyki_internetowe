@@ -6,7 +6,6 @@
             <link rel="stylesheet" href="style.css" />
             <title>Kalkulator</title>
             <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-            <script src="calculations.js"></script>
         </head>
         <body>
         <?php
@@ -16,10 +15,10 @@
 			include_once("menu.php");
 		?>
 
-            <div id="kalkulator_tło">
-                <center><h1 id="kalkulator_nagł">Kalkulator</h1></center>
-                <center><article id="opis_kalkulator">Dzięki dodanej funkcji kalkulator, możesz dokonać prostych obliczeń, które w elektronice są niezbędne chociażby do dobrania odpowiednich elementów elektronicznych do układu ze względu na rezystancję, pojemność czy indukcyjność. </article></center>
-                <div id="kalk">
+            <div class="display">
+                <center><h1 class="kalkulator_nagl">Kalkulator</h1></center>
+                <center><article class="opis_kalkulator">Dzięki dodanej funkcji kalkulator, możesz dokonać prostych obliczeń, które w elektronice są niezbędne chociażby do dobrania odpowiednich elementów elektronicznych do układu ze względu na rezystancję, pojemność czy indukcyjność. </article></center>
+                <div class="kalk">
                     <center><img  id="img_logos" src = "photos/Logo.png" alt="logo"/></center>              
                     <form name="form">
                     <input class="textview" name="textview">

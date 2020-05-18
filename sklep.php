@@ -18,7 +18,7 @@
     	<?php
 			include_once("menu.php");
 		?>
-        <div class="index_tło">
+        <div class="index_tlo">
             <div ng-app="myApp" ng-controller="controller">
                 <div class="container">
                     <br/>

@@ -9,9 +9,6 @@
         <link rel="stylesheet" href="style.css" />
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <title>Elektronix</title>
-        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-    
     </head>
 
     <body>
@@ -22,7 +19,7 @@
 			include_once("menu.php");
         ?>
         
-        <div id="kalkulator_tło">
+        <div class="display">
         <div class="container">
             <div class="log">
    <div class="row">

@@ -137,11 +137,11 @@
     	<?php
 			include_once("menu.php");
 		?>
-		<div id="kalkulator_tło">
+		<div class="display">
         	<div class="container">
 				<div class="row">
 					<div class="col-md-8" style="margin:0 auto; float:none;">
-						<h3 id="formh3" align="center">Wypełnij formularz aby się poprawnie utworzyć konto</h3>
+						<h3 class="formh3" align="center">Wypełnij formularz aby się poprawnie utworzyć konto</h3>
 						<br/>
 						<form method="post">
 						<div class="form-group">

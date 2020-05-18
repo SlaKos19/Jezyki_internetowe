@@ -2,11 +2,10 @@
     <html>
         <head>
             <title>Pomoc techniczna</title>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <meta http-equiv="content-type" content="text/html" charset="utf-8" />
             <link rel="stylesheet" href="style.css" />
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         </head>
         <body>
         <?php
@@ -15,7 +14,7 @@
     	  <?php
 			    include_once("menu.php");
 		    ?>
-            <div id="kalkulator_tło">
+            <div class="display">
             <div class="container">
             <div class="row">
                  <div class="col-md-8" style="margin:0 auto; float:none;">
@@ -59,11 +58,7 @@
 		        ?>
 
 
-
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-
-<script type="text/javascript">
+<script>
 
   var click_pomoc = document.querySelector("#click_pomoc");
   click_pomoc.addEventListener("click", function sendEmail(){

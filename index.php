@@ -14,10 +14,10 @@
     	<?php
 			include_once("menu.php");
 		?>
-        <div class="index_tło">
-      <h1 id="nag_1">Witamy na stronie internetowej poświęconej elektronice !</h1>
+        <div class="index_tlo">
+      <h1 class="nag_1">Witamy na stronie internetowej poświęconej elektronice !</h1>
         
-        <div id ="pole1">  
+        <div class ="pole1">  
           <section class="slider">
             <div class="slideshow-container">
               <div class="mySlides fade">
@@ -59,29 +59,29 @@
           <div id="zdj">
             <div class="ram">
               <article class= "article">
-                <div id="zdjp">
+                <div class="zdjp">
                   <h2 class="nagł_klas">Przewodniki</h2>
                   <img class="foto" src="photos/półprzewodnik.png" />
                   <br>
-                  <a href = "przewodnik.php" id= "a_przewodnik">Czytaj więcej</a>
+                  <a href = "przewodnik.php">Czytaj więcej</a>
                 </div>  
               </article>
 
               <article class= "article">
-                  <div id="zdjp">
+                  <div class="zdjp">
                     <h2 class="nagł_klas">Półprzewodniki</h2>
                     <img class="foto" src="photos/przewodnik.png" />
                     <br>
-                    <a href = "półprzewodnik.php" id= "a_przewodnik">Czytaj więcej</a>
+                    <a href = "półprzewodnik.php">Czytaj więcej</a>
                   </div>
               </article>
   
               <article class= "article">
-                  <div id="zdjp">
+                  <div class="zdjp">
                     <h2 class="nagł_klas">Izolatory</h2>
                     <img class="foto" src="photos/izolator.png" />
                     <br>
-                    <a href = "izolator.php" id= "a_przewodnik">Czytaj więcej</a>
+                    <a href = "izolator.php">Czytaj więcej</a>
                     </div>  
               </article>
             </div>   

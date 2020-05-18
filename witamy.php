@@ -43,10 +43,10 @@
     	<?php
 			include_once("menu.php");
 		?>
-		<div id="kalkulator_tło">
+		<div class="display">
 
 	
-		<h2 id="formh4" align="center">Udało się założyć konto !</h2>
+		<h2 class="formh4" align="center">Udało się założyć konto !</h2>
 	
 	<a class="wyloq" href="logowanie.php">Zaloguj się </a>
 	<br /><br />

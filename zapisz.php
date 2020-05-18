@@ -17,8 +17,6 @@ if(isset(($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
         <link rel="stylesheet" href="style.css" />
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <title>Zapisz</title>
-        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-
     </head>
 
     <body>
@@ -29,10 +27,10 @@ if(isset(($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
 			include_once("menu.php");
 		?>
 
-        <div id="dodaj_s">
+        <div class="dodaj_s">
 
         <form id="form_dodaj" action="dodaj_kod.php" method="POST" enctype="multipart/form-data">
-        <pre id="Nagl_dodaj"> Aby dodać własną ofertę uzupełnij następujące pola !</pre>
+        <pre class="Nagl_dodaj"> Aby dodać własną ofertę uzupełnij następujące pola !</pre>
         <label class="inputy">Nazwa:</label>
         <input type="text" name="nazwa" class="kwadraciki" />
         <br>
