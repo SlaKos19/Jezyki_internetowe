@@ -48,16 +48,16 @@
               </div>
 
               
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              <a class="prev">&#10094;</a>
+              <a class="next">&#10095;</a>
             </div>
 
             <br>
             
             <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
+              <span id="dot1" class="dot"></span>
+              <span id="dot2" class="dot"></span>
+              <span id="dot3" class="dot"></span>
             </div>   
         </section>
         </div>
@@ -110,20 +110,50 @@
 
 <script>
   var slideIndex = 1;
-  showSlides(slideIndex);
-                    
-  // Next/previous controls
+showSlides(slideIndex);
+
+var minSlide = document.querySelector(".prev");
+minSlide.addEventListener("click",function minSlide(){
+  n = -1;
+  showSlides(slideIndex += n);
+})
+
+var plusSlide = document.querySelector(".next");
+plusSlide.addEventListener("click",function plusSlide(){
+  n = 0;
+  showSlides(slideIndex += n);
+})
+
+var dot1 = document.querySelector("#dot1");
+dot1.addEventListener("click",function dot1(){
+  n = 1;
+  showSlides(slideIndex = n);
+
+})
+
+var dot2 = document.querySelector("#dot2");
+dot2.addEventListener("click",function dot2(){
+  n = 2;
+  showSlides(slideIndex = n);
+
+})
+
+var dot3 = document.querySelector("#dot3");
+dot3.addEventListener("click",function dot3(){
+  n = 3;
+  showSlides(slideIndex = n);
+})
+                
   function plusSlides(n) 
     {
       showSlides(slideIndex += n);
     }
-                    
-  // Thumbnail image controls
-  function currentSlide(n) 
-    {
-      showSlides(slideIndex = n);
-    }
-                    
+    var plusSlide = document.querySelector(".next");
+    plusSlide.addEventListener("click",function plusSlide(){
+     n = 1;
+    showSlides(slideIndex += n);
+})               
+                  
   function showSlides(n) 
     {
       var i;
@@ -142,6 +172,7 @@
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
       } 
+        
         
 </script>
     </body>

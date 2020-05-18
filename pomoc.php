@@ -57,7 +57,7 @@
                         <textarea name="message" rows="10" class="form-control" id="body" placeholder="Tutaj wpisz wiadomość" ></textarea>
                     </div>
                     <div class="form-group" align="center">
-                    <button type="button" onclick="sendEmail()" value="Wyslij" class="click">Wyślij</button>
+                    <button type="button"  value="Wyslij" id="click_pomoc" class="click">Wyślij</button>                    
                     </div>
                 </div>
             </form>
@@ -77,13 +77,17 @@
 
 
             <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
 <script type="text/javascript">
-  function sendEmail(){
+
+  var click_pomoc = document.querySelector("#click_pomoc");
+  click_pomoc.addEventListener("click", function sendEmail(){
+
     var name = $("#name");
     var email = $("#email");
     var subject = $("#subject");
     var body = $("#body");
-
     if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)){
       $.ajax({
         url: 'wysłanie_email.php',
@@ -100,7 +104,8 @@
         }
       });
     }
-  }
+  })
+
   function isNotEmpty(caller){
     if(caller.val() == ""){
       caller.css('border','1px solid red');
@@ -112,6 +117,7 @@
       return true;
     }
   }
+
 </script>
         </body>
     </html>
