@@ -213,7 +213,7 @@ header{
   margin: 15px;
 }
 
-#add {
+.add {
   float: right !important;
   position: relative;
   margin-right: 5px;
@@ -533,7 +533,9 @@ header{
 
 .button1{
   width:106px;
-  height: 50px;
+  height: 50px;  
+  font-size: 25pt;
+
 }
 
 #kalk{

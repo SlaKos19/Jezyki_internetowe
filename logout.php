@@ -3,6 +3,6 @@ session_start();
 
 session_unset();
 
-header('Location:sklep.html')
+header('Location:sklep.php')
 
 ?>

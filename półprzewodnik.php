@@ -14,28 +14,12 @@
     </head>
 
     <body>
-
-        <header>
-
-            <center><img  id="img_logo" src = "photos/Logo.png" alt="logo"/></center>
-
-        </header>
-
-        <div id= "kolor">
-        <div id="lista1">
-        <div id="menu">
-            <ul>
-                <li><a href="index.html">Strona głowna</a></li>
-				<li><a href="sklep.html">Sklep</a></li>
-				<li class="add"><a href="formularz.php">Załóż konto</a></li>
-				<li><a href="kalkulator.html">Kalkulator</a></li>
-				<li><a href="logowanie.php">Dodaj oferte</a></li>
-				<li><a href="pomoc.php">Pomoc techniczna</a></li>
-            </ul>
-
-        </div>
-        </div>
-        </div>
+        <?php
+			include_once("logo.php");
+		?>
+    	<?php
+			include_once("menu.php");
+		?>
 
         <div id="tło_półprzewodnik">
         <h1 id="półprzewodnik_nagł">Półprzewodniki</h1>
@@ -88,13 +72,11 @@
         </section>    
         </div>
 
-        <div id="foter">
+        
 
-                <div id="foot">
-                        <p>Autor: Sławomir Kosior </p>
-                        <hr>
-                        <p> WSIiZ 2020 Języki internetowe</p>
-                    </div>
+            <?php
+                include_once("footer.php");
+            ?>
 
 
 

@@ -8,23 +8,12 @@
       <title>Elektronix</title>
     </head>
   <body>
-      <header>
-          <center><img  id="img_logo" src = "photos/Logo.png" alt="logo"/></center>
-      </header>
-        <div id= "kolor">
-        <div id="lista1">
-        <div id="menu">
-          <ul>
-            <li><a href="index.html">Strona głowna</a></li>
-            <li><a href="sklep.html">Sklep</a></li>
-            <li id="add"><a href="formularz.php">Załóż konto</a></li>
-            <li><a href="kalkulator.html">Kalkulator</a></li>
-            <li><a href="logowanie.php">Dodaj oferte</a></li>
-            <li><a href="pomoc.php">Pomoc techniczna</a></li>
-          </ul>
-        </div>
-        </div>
-        </div>
+  <?php
+			include_once("logo.php");
+		?>
+    	<?php
+			include_once("menu.php");
+		?>
         <div class="index_tło">
       <h1 id="nag_1">Witamy na stronie internetowej poświęconej elektronice !</h1>
         
@@ -74,7 +63,7 @@
                   <h2 class="nagł_klas">Przewodniki</h2>
                   <img class="foto" src="photos/półprzewodnik.png" />
                   <br>
-                  <a href = "przewodnik.html" id= "a_przewodnik">Czytaj więcej</a>
+                  <a href = "przewodnik.php" id= "a_przewodnik">Czytaj więcej</a>
                 </div>  
               </article>
 
@@ -83,7 +72,7 @@
                     <h2 class="nagł_klas">Półprzewodniki</h2>
                     <img class="foto" src="photos/przewodnik.png" />
                     <br>
-                    <a href = "półprzewodnik.html" id= "a_przewodnik">Czytaj więcej</a>
+                    <a href = "półprzewodnik.php" id= "a_przewodnik">Czytaj więcej</a>
                   </div>
               </article>
   
@@ -92,7 +81,7 @@
                     <h2 class="nagł_klas">Izolatory</h2>
                     <img class="foto" src="photos/izolator.png" />
                     <br>
-                    <a href = "izolator.html" id= "a_przewodnik">Czytaj więcej</a>
+                    <a href = "izolator.php" id= "a_przewodnik">Czytaj więcej</a>
                     </div>  
               </article>
             </div>   
@@ -101,12 +90,9 @@
       </div>
     </div>
   </div>
-      <div id="foter">
-        <div id="foot">
-          <p>Autor: Sławomir Kosior </p>
-          <hr>
-          <p> WSIiZ 2020 Jezyki Internetowe</p>
-        </div>
+  <?php
+		include_once("footer.php");
+		?>
 
 <script>
   var slideIndex = 1;

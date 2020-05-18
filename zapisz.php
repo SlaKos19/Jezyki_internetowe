@@ -22,33 +22,14 @@ if(isset(($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
     </head>
 
     <body>
-
-        <header>
-
-            <center><img  id="img_logo" src = "photos/Logo.png" alt="logo"/></center>
-
-        </header>
-
-        <div id= "kolor">
-        <div id="lista">
-        <div id="menu">
-            <ul>
-            <li><a href="index.html">Strona głowna</a></li>
-            <li><a href="sklep.html">Sklep</a></li>
-            <li class="add"><a href="formularz.php">Załóż konto</a></li>
-            <li><a href="kalkulator.html">Kalkulator</a></li>
-            <li><a href="logowanie.php">Dodaj oferte</a></li>
-            <li><a href="pomoc.php">Pomoc techniczna</a></li>
-            </ul>
-
-        </div>
-        </div>
-        </div>
-        
+        <?php
+			include_once("logo.php");
+		?>
+    	<?php
+			include_once("menu.php");
+		?>
 
         <div id="dodaj_s">
-
-        
 
         <form id="form_dodaj" action="dodaj_kod.php" method="POST" enctype="multipart/form-data">
         <pre id="Nagl_dodaj"> Aby dodać własną ofertę uzupełnij następujące pola !</pre>
@@ -77,24 +58,10 @@ if(isset(($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
         ?>
         </div>
 
+        <?php
+		include_once("footer.php");
+		?>
 
-        
-        
-    
-
-        
-        <div id="foter">
-
-                <div id="foot">
-                        <p>Autor: Sławomir Kosior </p>
-                        <hr>
-                        <p>WSIiZ 2020 Języki internetowe</p>
-                    </div>
-
-
-
-        </div>
-        
+        </div>  
     </body>
-
 </html>
